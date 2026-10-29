@@ -1,0 +1,42 @@
+# ---------- 运行数据与隐私 ----------
+# 浏览器配置目录里有登录 Cookie，绝不能提交
+host/edge_profile/
+host/edge_profile_fresh/
+host/dy_profile/
+
+# 模型权重（首次运行自动下载）
+host/models/
+
+# 运行期缓存：下载的视频、封面、抽帧
+host/covers/
+host/shots/
+
+# 她刷过什么、回过谁
+host/memory.json
+host/*.log
+# 看门狗记的解释器与 pid，换机器就不同
+host/runtime.json
+host/watchdog.pid
+
+# 插件状态（AstrBot 侧）
+data/plugin_data/
+**/dm_state.json
+**/share_state.json
+**/last.json
+**/routine_state.json
+**/stickers/index.json
+
+# ---------- 凭据 ----------
+.env
+*.cookie
+dy_cookies.txt
+
+# ---------- 缓存 ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+*.zip
+.DS_Store
+Thumbs.db

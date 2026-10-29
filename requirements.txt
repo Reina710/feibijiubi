@@ -1,0 +1,8 @@
+# 宿主侧（host/）依赖
+playwright>=1.40
+faster-whisper>=1.0
+requests>=2.31
+Pillow>=10.0
+numpy>=1.24
+
+# 外部依赖：ffmpeg 需自行安装并加入 PATH
